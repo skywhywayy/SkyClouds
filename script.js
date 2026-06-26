@@ -13,7 +13,7 @@ function orderProduct(productName, price) {
     const url = `https://t.me/${telegramUsername}?text=${encodedMessage}`;
     
     // 5. Показываем уведомление пользователю
-    alert("Переходим к оформлению заказа: " + productName);
+    alert("Let's move on to placing your order: " + productName);
     
     // 6. Открываем Telegram
     window.open(url, '_blank');
