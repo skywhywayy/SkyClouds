@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <meta charset="UTF-8">
+    <title>SkyClouds Store</title>
     <link rel="stylesheet" href="style.css">
-    <title>Tech & Fun Store</title>
 </head>
 <body>
+
     <header>
         <div class="logo">SkyClouds</div>
     </header>
 
     <main>
         <section class="product-grid">
-            <!-- Кнопка для Лего -->
-<button class="buy-button" onclick="orderProduct('Lego Technic Marvel', '89.99 €')">
-    Заказать в Telegram
-</button>
+            <div class="card">
                 <img src="lego-set.jpg" alt="Lego">
                 <h3>Lego Technic Marvel</h3>
                 <p class="price">89.99 €</p>
-                <a href="https://t.me/skylinewayy" class="buy-button">Order in Telegram</a>
+                <button class="buy-button" onclick="orderProduct('Lego Technic Marvel', '89.99 €')">
+                    Заказать в Telegram
+                </button>
             </div>
-            
-            <!-- Кнопка для Наушников -->
-<button class="buy-button" onclick="orderProduct('Air Pods 4 ANC', '120.00 €')">
-    Заказать в Telegram
-</button>
+
+            <div class="card">
                 <img src="headphones.jpg" alt="Headphones">
-                <h3>Air Pods 2 ANC</h3>
+                <h3>Air Pods 4 ANC</h3>
                 <p class="price">120.00 €</p>
-                <a href="https://t.me/skylinewayy" class="buy-button">Order in Telegram</a>
+                <button class="buy-button" onclick="orderProduct('Air Pods 4 ANC', '120.00 €')">
+                    Заказать в Telegram
+                </button>
             </div>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
