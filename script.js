@@ -1,3 +1,20 @@
-function addToCart(productName) {
-    alert(productName + " добавлен в корзину!");
+// Функция для заказа товара
+function orderProduct(productName, price) {
+    // 1. Формируем текст сообщения
+    const message = `Привет! Хочу заказать: ${productName}. Цена: ${price}`;
+    
+    // 2. Кодируем текст для URL, чтобы пробелы и символы не сломали ссылку
+    const encodedMessage = encodeURIComponent(message);
+    
+    // 3. Ваш юзернейм в телеграм
+    const telegramUsername = "skylinewayy";
+    
+    // 4. Формируем готовую ссылку
+    const url = `https://t.me/${telegramUsername}?text=${encodedMessage}`;
+    
+    // 5. Показываем уведомление пользователю
+    alert("Переходим к оформлению заказа: " + productName);
+    
+    // 6. Открываем Telegram
+    window.open(url, '_blank');
 }
