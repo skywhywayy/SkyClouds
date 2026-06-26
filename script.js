@@ -1,7 +1,7 @@
 // Функция для заказа товара
 function orderProduct(productName, price) {
     // 1. Формируем текст сообщения
-    const message = `Hello! I would like to order: ${productName}. Цена: ${price}`;
+    const message = `Hello! I would like to order: ${productName}. Price: ${price}`;
     
     // 2. Кодируем текст для URL, чтобы пробелы и символы не сломали ссылку
     const encodedMessage = encodeURIComponent(message);
