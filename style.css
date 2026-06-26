@@ -1,0 +1,47 @@
+body {
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background: #252525;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: #2d2d2d;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
