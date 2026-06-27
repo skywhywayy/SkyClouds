@@ -18,3 +18,19 @@ function orderProduct(productName, price) {
     // 6. Открываем Telegram
     window.open(url, '_blank');
 }
+// Функция для открытия окна
+function openModal(id) {
+    document.getElementById(id).style.display = "block";
+}
+
+// Функция для закрытия окна
+function closeModal(id) {
+    document.getElementById(id).style.display = "none";
+}
+
+// Функция для заказа (сообщение на английском)
+function orderProduct(productName, price) {
+    const message = "Hi! I want to order: " + productName + ". Price: " + price;
+    const url = "https://t.me/skylinewayy?text=" + encodeURIComponent(message);
+    window.open(url, '_blank');
+}
