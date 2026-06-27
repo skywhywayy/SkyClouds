@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "18650 Battery Holder",
+    "price": 0.81,
+    "desc": "Clip Holder Box Case For Rechargeable Li-ion Battery.",
+    "img": "battery-holder.jpg"
+  },
+  {
+    "id": 2,
+    "name": "MT3608 Boost Module",
+    "price": 6.99,
+    "desc": "28V 2A Step-Up Power Module for DIY Electronics.",
+    "img": "mt3608.jpg"
+  },
+  {
+    "id": 3,
+    "name": "TP4056 Charger",
+    "price": 1.61,
+    "desc": "5V 1A Micro USB Lithium Battery Charging Board.",
+    "img": "tp4056.jpg"
+  },
+  {
+    "id": 4,
+    "name": "LD2412 Motion Sensor",
+    "price": 5.77,
+    "desc": "Human Presence and Motion Sensor Module.",
+    "img": "ld2412.jpg"
+  }
+]
