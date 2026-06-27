@@ -6,45 +6,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <div class="logo">SkyClouds</div>
-    </header>
-
+    <header><h1>SkyClouds</h1></header>
     <main class="product-grid">
-        <div class="card" onclick="openModal('modal1')">
-            <img src="lego-set.jpg" alt="Lego">
-            <h3>Lego Technic Marvel</h3>
-            <p class="price">89.99 €</p>
-        </div>
-
-        <div class="card" onclick="openModal('modal2')">
-            <img src="headphones.jpg" alt="Headphones">
-            <h3>Air Pods 4 ANC</h3>
-            <p class="price">120.00 €</p>
-        </div>
+        <a href="lego.html" class="card-link">
+            <div class="card">
+                <img src="lego-set.jpg" alt="Lego">
+                <h3>Lego Technic Marvel</h3>
+                <p class="price">89.99 €</p>
+            </div>
+        </a>
+        <a href="airpods.html" class="card-link">
+            <div class="card">
+                <img src="headphones.jpg" alt="Headphones">
+                <h3>Air Pods 4 ANC</h3>
+                <p class="price">120.00 €</p>
+            </div>
+        </a>
     </main>
-
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal1')">&times;</span>
-            <h2>Lego Technic Marvel</h2>
-            <p>Уникальный набор для сборки. Профессиональная серия Technic.</p>
-            <p class="price">89.99 €</p>
-            <button class="buy-button" onclick="orderProduct('Lego Technic Marvel', '89.99 €')">Заказать в Telegram</button>
-        </div>
-    </div>
-
-    <div id="modal2" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('modal2')">&times;</span>
-            <h2>Air Pods 4 ANC</h2>
-            <p>Наушники с активным шумоподавлением и идеальным звуком.</p>
-            <p class="price">120.00 €</p>
-            <button class="buy-button" onclick="orderProduct('Air Pods 4 ANC', '120.00 €')">Заказать в Telegram</button>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
