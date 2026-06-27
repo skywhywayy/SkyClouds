@@ -15,15 +15,17 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+/* Толкаем футер вниз */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-/* Заголовок с градиентным свечением */
-header {
-    margin: 50px 0;
-    text-align: center;
-}
-
+header { margin: 50px 0; text-align: center; }
 header h1 {
     font-size: 3.5rem;
     letter-spacing: 5px;
@@ -34,7 +36,6 @@ header h1 {
     filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.5));
 }
 
-/* Сетка товаров */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, 280px);
@@ -44,7 +45,6 @@ header h1 {
     justify-content: center;
 }
 
-/* Карточка товара с эффектом стекла */
 .card {
     background: var(--glass);
     backdrop-filter: blur(15px);
@@ -54,40 +54,27 @@ header h1 {
     cursor: pointer;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     text-align: center;
-    overflow: hidden;
 }
 
 .card:hover {
     transform: translateY(-15px) scale(1.03);
     border-color: var(--accent);
-    box-shadow: 0 0 40px rgba(0, 212, 255, 0.3);
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.2);
 }
 
-.card img {
-    width: 100%;
-    border-radius: 15px;
-    transition: 0.5s;
-}
+.card img { width: 100%; border-radius: 15px; }
 
-/* Страница товара (анимация появления) */
 .product-page {
     max-width: 500px;
-    margin: 50px auto;
+    margin: 40px auto;
     background: var(--glass);
     backdrop-filter: blur(20px);
     padding: 40px;
     border-radius: 30px;
     text-align: center;
     border: 1px solid rgba(255,255,255,0.1);
-    animation: fadeIn 0.8s ease-out;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-/* Кнопка с неоновым пульсом */
 .buy-button {
     background: transparent;
     border: 2px solid var(--accent);
@@ -98,7 +85,6 @@ header h1 {
     cursor: pointer;
     transition: 0.4s;
     width: 100%;
-    font-size: 1rem;
     text-transform: uppercase;
 }
 
@@ -108,62 +94,28 @@ header h1 {
     box-shadow: 0 0 25px var(--accent);
 }
 
-.price {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: var(--accent);
-    margin: 20px 0;
-}
+.price { font-size: 1.6rem; font-weight: 700; color: var(--accent); margin: 20px 0; }
 
-.back-btn {
-    color: #aaa;
-    text-decoration: none;
-    font-size: 0.9rem;
-}
-.buy-button:hover {
-    background: #00d4ff;
-    color: #000;
-    box-shadow: 0 0 30px #00d4ff;
-}
+/* КОМПАКТНЫЙ ФУТЕР НА ВСЮ ШИРИНУ */
 footer {
-    background: rgba(15, 15, 20, 0.8);
-    backdrop-filter: blur(15px);
-    border-top: 1px solid rgba(0, 212, 255, 0.3);
-    padding: 60px 20px 20px 20px;
-    margin-top: 100px;
-    color: #ccc;
+    width: 100%;
+    background: rgba(10, 10, 12, 0.95);
+    border-top: 1px solid rgba(0, 212, 255, 0.2);
+    padding: 30px 0;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
     flex-wrap: wrap;
-    gap: 40px;
-    max-width: 1000px;
-    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
-.footer-section h3 { color: #00d4ff; margin-bottom: 15px; }
+.footer-section h3 { color: var(--accent); font-size: 1rem; margin-bottom: 10px; text-transform: uppercase; }
+.footer-section p { margin: 5px 0; font-size: 0.9rem; opacity: 0.8; }
+.social-link { color: var(--accent); text-decoration: none; font-weight: bold; }
 
-.social-link {
-    color: #fff;
-    text-decoration: none;
-    background: #00d4ff;
-    padding: 8px 15px;
-    border-radius: 20px;
-    transition: 0.3s;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.social-link:hover {
-    box-shadow: 0 0 15px #00d4ff;
-    transform: scale(1.1);
-}
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 0.75em;
-    color: #555;
-}
+.footer-bottom { font-size: 0.7rem; opacity: 0.4; text-transform: uppercase; letter-spacing: 1px; }
