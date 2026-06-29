@@ -2,5 +2,18 @@
   {"id": 1, "name": "18650 Battery Holder", "price": 0.81, "desc": "Крепление для аккумуляторов 18650. Качественный пластик.", "img": "https://ae01.alicdn.com/kf/S26500746979647248161749174.jpg"},
   {"id": 2, "name": "MT3608 Boost Module", "price": 6.99, "desc": "Повышающий преобразователь напряжения 2A для DIY проектов.", "img": "https://ae01.alicdn.com/kf/S423530669784564564.jpg"},
   {"id": 3, "name": "TP4056 Charger", "price": 1.61, "desc": "Зарядный модуль Type-C для аккумуляторов с защитой.", "img": "https://ae01.alicdn.com/kf/S557889756784564564.jpg"},
-  {"id": 4, "name": "LD2412 Sensor", "price": 5.77, "desc": "Радарный датчик присутствия человека. Высокая точность.", "img": "https://ae01.alicdn.com/kf/S998877665544332211.jpg"}
+  {"id": 4, "name": "LD2412 Sensor", "price": 5.77, "desc": "Радарный датчик присутствия человека. Высокая точность.", "img": "https://ae01.alicdn.com/kf/S998877665544332211.jpg"},
+  {"id": 5, "name": "Railway Highway Road Tape", "price": 15.50, "desc": "Креативная клейкая лента для дорог. Отлично подходит для детских игр и DIY.", "img": "https://ae01.alicdn.com/kf/S8f60f673323049b4912384955b25.jpg"},
+  {"id": 6, "name": "SIM800C GSM GPRS Module", "price": 18.00, "desc": "Разработческая плата с Bluetooth и поддержкой TTS для Arduino и STM32.", "img": "https://ae01.alicdn.com/kf/S1b6d192934044810a95572834b62.jpg"},
+  {"id": 7, "name": "Pro Mini 328 Development Board", "price": 19.99, "desc": "Компактная плата на базе Atmega328P для Arduino проектов.", "img": "https://ae01.alicdn.com/kf/S3d567a12384955b25.jpg"},
+  {"id": 8, "name": "Stepper Motor 28BYJ-48 + Driver", "price": 23.99, "desc": "Шаговый двигатель 5V с драйвером ULN2003 для точного управления.", "img": "https://ae01.alicdn.com/kf/S0f1a92384955b25.jpg"},
+  {"id": 9, "name": "SIM800L GPRS GSM Module", "price": 25.00, "desc": "Quad-band модуль для GSM связи с антенной в комплекте.", "img": "https://ae01.alicdn.com/kf/S987a12384955b25.jpg"},
+  {"id": 10, "name": "Capacitive Soil Moisture Sensor", "price": 30.00, "desc": "Набор из 10 датчиков влажности почвы с защитой от коррозии.", "img": "https://ae01.alicdn.com/kf/S2a192384955b25.jpg"},
+  {"id": 11, "name": "Mini SIM800L Module", "price": 16.99, "desc": "Миниатюрный GSM модуль с портом TTL Serial.", "img": "https://ae01.alicdn.com/kf/S3f1a92384955b25.jpg"},
+  {"id": 12, "name": "Dual High-Power MOSFET Trigger", "price": 12.99, "desc": "Мощный переключатель MOSFET для управления скоростью двигателей.", "img": "https://ae01.alicdn.com/kf/S4a192384955b25.jpg"},
+  {"id": 13, "name": "HLK-LD2412 Radar Sensor", "price": 18.99, "desc": "Радарный модуль дальнего действия для определения присутствия.", "img": "https://ae01.alicdn.com/kf/S5f1a92384955b25.jpg"},
+  {"id": 14, "name": "Camera Module", "price": 35.99, "desc": "Высококачественный модуль камеры для видеопроектов.", "img": "https://ae01.alicdn.com/kf/S6a192384955b25.jpg"},
+  {"id": 15, "name": "TP4056 Type-C Charging Board (10pcs)", "price": 22.99, "desc": "Комплект из 10 модулей зарядки Type-C с защитой аккумулятора.", "img": "https://ae01.alicdn.com/kf/S7f1a92384955b25.jpg"},
+  {"id": 16, "name": "MT3608 Boost Module (20pcs)", "price": 15.99, "desc": "Набор из 20 повышающих модулей для DIY электроники.", "img": "https://ae01.alicdn.com/kf/S8a192384955b25.jpg"},
+  {"id": 17, "name": "18650 Battery Holder Box (10pcs)", "price": 10.99, "desc": "Набор из 10 кейсов-держателей для аккумуляторов 18650.", "img": "https://ae01.alicdn.com/kf/S9f1a92384955b25.jpg"}
 ]
