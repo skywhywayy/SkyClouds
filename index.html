@@ -1,36 +1,29 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SkyClouds | Store</title>
+    <title>SkyClouds | Professional Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><h1>SkyClouds</h1></header>
+    <nav class="navbar">
+        <div class="logo">SkyClouds</div>
+        <div class="nav-controls">
+            <input type="text" id="searchBar" placeholder="Search products...">
+            <div class="cart-icon">🛒 <span id="cartCount">0</span></div>
+        </div>
+    </nav>
+
+    <header><h1>Premium Selection</h1></header>
+    
     <main class="product-grid" id="productGrid"></main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section"><h3>SkyClouds</h3><p>Premium tech for your comfort.</p></div>
+            <div class="footer-section"><h3>Contact Us</h3><p>support@skyclouds.ee</p></div>
+        </div>
+    </footer>
     <script src="app.js"></script>
-   <footer>
-    <div class="footer-container">
-        <div class="footer-section">
-            <h3>SkyClouds</h3>
-            <p>Premium tech for your comfort.</p>
-            <p>Available 24/7</p>
-        </div>
-        <div class="footer-section">
-            <h3>Contact Us</h3>
-            <p>📧 support@skyclouds.ee</p>
-            <p>📞 +372 5555 5555</p>
-            <p>📍 Tallinn, Estonia</p>
-        </div>
-        <div class="footer-section">
-            <h3>Follow Us</h3>
-            <a href="https://t.me/skylinewayy" target="_blank" class="social-link">Telegram</a>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2026 SkyClouds Store. All rights reserved.</p>
-        <p>Created with passion in Tallinn</p>
-    </div>
-</footer>
 </body>
 </html>
