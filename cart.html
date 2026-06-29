@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Cart | SkyClouds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">SkyClouds</div>
+        <a href="index.html" class="back-btn">← Back to Store</a>
+    </nav>
+
+    <main style="max-width: 800px; margin: 40px auto; width: 90%;">
+        <h1>Shopping Cart</h1>
+        <div id="cartItems"></div>
+        <div id="cartTotal" style="margin-top: 20px; font-size: 1.5rem; color: var(--accent);"></div>
+        <button class="buy-button" onclick="checkout()" style="margin-top: 30px;">Checkout in Telegram</button>
+    </main>
+
+    <script src="cart.js"></script>
+</body>
+</html>
